@@ -33,20 +33,21 @@ through the solution of the corresponding characteristic equation.
 The mass matrix must be stored in the variable `A` and the stiffness matrix in the variable `B`.
 These must be square matrices with dimension 2.
 In the calculator, press `2nd>matrix>edit` to edit specific matrices.  
-Run the program and the square of the natural frequencies, \\( \omega_1^2 \\)$ and \\( \omega_2^2 \\), is written and stored in variables `D` and `E`, respectively.
+Run the program and the square of the natural frequencies, <img src="https://render.githubusercontent.com/render/math?math=\omega_1^2"> and
+<img src="https://render.githubusercontent.com/render/math?math=\omega_2^2">, are written and stored in variables `D` and `E`, respectively.
 
 ### Determination of normalised modal vectors
 
 In the context of vibrations mechanics, the program [`MMODUNIT`](https://github.com/iarlopes/TI84-MechEng/blob/main/MMODUNIT.8xp) returns the normalised (unit)
-modal vectors given the $2\times 2$ mass matrix, stored in variable `A`, and two modal vectors stored in variables stored in variables `C` and `D`
-(matrices with dimension $2\times 1$), respectively.  
+modal vectors given the 2x2 mass matrix, stored in variable `A`, and two modal vectors stored in variables stored in variables `C` and `D`
+(matrices with dimension 2x1), respectively.  
 The results are displayed and stored in variables `G` and `H`.
 
 ### Determination of the Raileigh quotient
 
 In the context of vibrations mechanics, the program [`QRAYLEIG`](https://github.com/iarlopes/TI84-MechEng/blob/main/QRAYLEIG.8xp) determines the
 Raileigh quotient for a system with two degrees of freedom.
-The mass and stiffness matrices ($2\times 2$) must be stored in variables `A` and `B`, respectively, and the trial vector in variable `C` ($2\times 1$ matrix).
+The mass and stiffness matrices (2x2) must be stored in variables `A` and `B`, respectively, and the trial vector in variable `C` (2x1 matrix).
 When the program is executed, the result is displayed and stored in variable `R`.
 
 
